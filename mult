@@ -9,7 +9,7 @@ try:
 			num1 = random.uniform(2.0,10.0)
 			num2 = random.uniform(2.0,10.0)
 			print ("%.2f x %.2f = " % (num1, num2))
-			answers.append(num1*num2)
+			answers.append(num1*num2 + 0.005)
 		raw_input("Press Enter for answers...")
 		for a in answers:
 			print ("%0.2f" % (a))
